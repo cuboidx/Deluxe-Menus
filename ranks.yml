@@ -1,0 +1,184 @@
+# Server Ranks menu by Abhay.
+# Download HeadDatabase plugin to use.
+# Server must be restarted in order to register command.
+# Ranks' name can be adjusted and perks too.
+
+menu_title: '&7Server Ranks'
+size: 54
+open_command: 
+- ranks 
+update_interval: 1
+register_command: true
+
+items:
+
+  'fill':
+   material: GRAY_STAINED_GLASS_PANE
+   slots: [0-27]
+
+  'plus_rank':
+   material: 'hdb-19253'
+   slots: 
+     - 21
+   display_name: '&#6D19E9&lᴘʟᴜs'
+   lore:
+     - '' 
+     - '&#00ff00&lᴘᴇʀᴋs'
+     - ''
+     - '&#ffff00&l• &f2x Homes'
+     - '&#ffff00&l• &fPlus Kit' 
+     - '' 
+     - '&#00ff00&lᴄᴏᴍᴍᴀɴᴅs'
+     - '' 
+     - '&#ffff00&l• &f/hat'
+     - '&#ffff00&l• &f/ender'
+     - '' 
+     - '&#00ff00&lᴘʀɪᴄᴇ: &f30 INR/month'
+
+'elite_rank':
+   material: 'hdb-19252'
+   slots: 
+     - 22
+   display_name: '&#3AF167&l「&#39EC65&lE&#38E762&lL&#37E260&lI&#35DC5E&lT&#34D75B&lE&#33D259&l」'
+   lore:
+     - '' 
+     - '&#00ff00&lᴘᴇʀᴋs'
+     - ''
+     - '&#ffff00&l• &f3x Homes'
+     - '&#ffff00&l• &fElite Kit' 
+     - '&#ffff00&l• &fExclusive Commands'
+     - '&#ffff00&l• &f100 Coins'
+     - '&#ffff00&l• &fSkip Queue'
+     - '' 
+     - '&#00ff00&lᴄᴏᴍᴍᴀɴᴅs'
+     - '' 
+     - '&#ffff00&l• &f/hat'
+     - '&#ffff00&l• &f/ender'
+     - '&#ffff00&l• &f/sit'
+     - '&#ffff00&l• &f/workbench'
+     - '' 
+     - '&#00ff00&lᴘʀɪᴄᴇ: &f100 INR/month'
+
+'hero_rank':
+   material: 'hdb-19251'
+   slots: 
+     - 23
+   display_name: '&#CB6CC8&l「&#C26AD3&lH&#B969DE&lE&#B167E9&lR&#A866F4&lO&#9F64FF&l」'
+   lore:
+     - '' 
+     - '&#00ff00&lᴘᴇʀᴋs'
+     - ''
+     - '&#ffff00&l• &f5x Homes'
+     - '&#ffff00&l• &fHero Kit' 
+     - '&#ffff00&l• &fExclusive Commands'
+     - '&#ffff00&l• &fSkip Queue'
+     - '&#ffff00&l• &f250 Coins'
+     - '' 
+     - '&#00ff00&lᴄᴏᴍᴍᴀɴᴅs'
+     - '' 
+     - '&#ffff00&l• &f/hat'
+     - '&#ffff00&l• &f/ender'
+     - '&#ffff00&l• &f/sit'
+     - '&#ffff00&l• &f/workbench'
+     - '&#ffff00&l• &f/nick'
+     - '' 
+     - '&#00ff00&lᴘʀɪᴄᴇ: &f250 INR/month'
+
+'legend_rank':
+   material: 'hdb-19250'
+   slots: 
+     - 30
+   display_name: '&#894244&l「&#90393B&lL&#963032&lE&#9D2729&lG&#A31D21&lE&#AA1418&lN&#B00B0F&lD&#B70206&l」'
+   lore:
+     - '' 
+     - '&#00ff00&lᴘᴇʀᴋs'
+     - ''
+     - '&#ffff00&l• &f7x Homes'
+     - '&#ffff00&l• &fLegend Kit' 
+     - '&#ffff00&l• &fExclusive Commands'
+     - '&#ffff00&l• &fSkip Queue'
+     - '&#ffff00&l• &f400 Coins'
+     - '' 
+     - '&#00ff00&lᴄᴏᴍᴍᴀɴᴅs'
+     - '' 
+     - '&#ffff00&l• &f/hat'
+     - '&#ffff00&l• &f/ender'
+     - '&#ffff00&l• &f/sit'
+     - '&#ffff00&l• &f/workbench'
+     - '&#ffff00&l• &f/nick'
+     - '&#ffff00&l• &f/respie'
+     - '&#ffff00&l• &f/pweather'
+     - '' 
+     - '&#00ff00&lᴘʀɪᴄᴇ: &f400 INR/month'
+
+'mystic_rank':
+   material: 'hdb-19249'
+   slots: 
+     - 31
+   display_name: '&#E2B67F&l「&#C3BD8C&lM&#A5C398&lY&#86CAA5&lS&#67D0B1&lT&#48D7BE&lI&#2ADDCA&lC&#0BE4D7&l」'
+   lore:
+     - '' 
+     - '&#00ff00&lᴘᴇʀᴋs'
+     - ''
+     - '&#ffff00&l• &f9x Homes'
+     - '&#ffff00&l• &fMystic Kit' 
+     - '&#ffff00&l• &fExclusive Commands'
+     - '&#ffff00&l• &fSkip Queue'
+     - '&#ffff00&l• &f500 Coins'
+     - '' 
+     - '&#00ff00&lᴄᴏᴍᴍᴀɴᴅs'
+     - '' 
+     - '&#ffff00&l• &f/hat'
+     - '&#ffff00&l• &f/ender'
+     - '&#ffff00&l• &f/sit'
+     - '&#ffff00&l• &f/workbench'
+     - '&#ffff00&l• &f/nick'
+     - '&#ffff00&l• &f/respie'
+     - '&#ffff00&l• &f/pweather'
+     - '&#ffff00&l• &f/condense'
+     - '&#ffff00&l• &f/anvil'
+     - '&#ffff00&l• &f/feed'
+     - '' 
+     - '&#00ff00&lᴘʀɪᴄᴇ: &f500 INR/month'
+
+'immortal_rank':
+   material: 'hdb-19248'
+   slots: 
+     - 32
+   display_name: '&#18AFAF&l「&#16AEB8&lI&#14ACC1&lM&#12ABC9&lM&#10A9D2&lO&#0EA8DB&lR&#0CA6E4&lT&#0AA5EC&lA&#08A3F5&lL&#06A2FE&l」'
+   lore:
+     - '' 
+     - '&#00ff00&lᴘᴇʀᴋs'
+     - ''
+     - '&#ffff00&l• &f10x Homes'
+     - '&#ffff00&l• &fImmortal Kit' 
+     - '&#ffff00&l• &fHigh Priority Commands'
+     - '&#ffff00&l• &fSkip Queue'
+     - '&#ffff00&l• &fExclusive Abilities'
+     - '&#ffff00&l• &f1200 Coins'
+     - '' 
+     - '&#00ff00&lᴄᴏᴍᴍᴀɴᴅs'
+     - '' 
+     - '&#ffff00&l• &f/hat'
+     - '&#ffff00&l• &f/ender'
+     - '&#ffff00&l• &f/sit'
+     - '&#ffff00&l• &f/workbench'
+     - '&#ffff00&l• &f/nick'
+     - '&#ffff00&l• &f/respie'
+     - '&#ffff00&l• &f/pweather'
+     - '&#ffff00&l• &f/condense'
+     - '&#ffff00&l• &f/anvil'
+     - '&#ffff00&l• &f/feed'
+     - '&#ffff00&l• &f/heal'
+     - '&#ffff00&l• &f/prime'
+     - '&#ffff00&l• &f/uncondense'
+     - '' 
+     - '&#00ff00&lᴘʀɪᴄᴇ: &f1200 INR/month'
+
+'exit_gui':
+  material: 'hdb-19262'
+  slots:
+    - 49
+  display_name: '&#ffff00&lᴄʟᴏsᴇ ɢᴜɪ'
+  click_commands: 
+  - '[close]'
