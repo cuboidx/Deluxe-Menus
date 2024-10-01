@@ -2,5 +2,8 @@ debug: false
 check_updates: true
 gui_menus:
   
-  shop_menu:
+  vote_menu:
     file: vote_menu.yml
+
+  rank_menu:
+    file: ranks.yml
