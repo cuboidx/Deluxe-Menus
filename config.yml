@@ -10,3 +10,6 @@ gui_menus:
 
   rtp_menu:
     file: rtp_menu.yml
+
+  warp_menu:
+    file: dungeons_warp.yml
