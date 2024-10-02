@@ -1,0 +1,74 @@
+# You need Head Database plugin for this config to work.
+# You also need Better RTP plugin.
+# To implement changes, do /dm relaod.
+# Made By Abhay
+
+menu_title: '&7Random Teleport'
+size: 27
+open_command:
+  - rtp
+  - wildtp
+  - randomtp
+  - randomteleport
+  - wilderness
+  - wildernesstp
+  - wildernessteleport
+  - rteleport
+  - wteleport 
+update_interval: 1
+register_command: true
+
+items:
+
+ 'glass':
+  material: GRAY_STAINED_GLASS_PANE
+  display_name: 
+  slots: [0-27]
+
+  'overworld_tp':
+   material: 'hdb-66312'
+   slots:
+     - 11
+   display_name: '&#55ff33&lᴏᴠᴇʀᴡᴏʀʟᴅ ᴛᴇʟᴇᴘᴏʀᴛ'
+   lore:
+     - '' 
+     - '&#ff0000&lᴄʟɪᴄᴋ ᴛᴏ ɢᴇᴛ ᴛᴇʟᴇᴘᴏʀᴛᴇᴅ,'
+     - '&#ff0000&lɪɴᴛᴏ ᴛʜᴇ ᴏᴠᴇʀᴡᴏʀʟᴅ.'
+     - '' 
+     - '&#00ff00&lꜰᴏʀ ᴇᴠᴇʀʏᴏɴᴇ!'
+   click_commands:
+     - '[console] rtp %player_name% world'
+
+ 'nether_tp':
+    material: 'hdb-88019'
+    slots:
+      - 13
+    display_name: '&#55ff33&lɴᴇᴛʜᴇʀ ᴛᴇʟᴇᴘᴏʀᴛ'
+    lore:
+      - '' 
+      - '&#ff0000&lᴄʟɪᴄᴋ ᴛᴏ ɢᴇᴛ ᴛᴇʟᴇᴘᴏʀᴛᴇᴅ,'
+      - '&#ff0000&lɪɴᴛᴏ ᴛʜᴇ ɴᴇᴛʜᴇʀ.'
+      - '' 
+      - '&#00ff00&lꜰᴏʀ ʀᴀɴᴋs: ᴘʟᴜs, ᴇʟɪᴛᴇ, ʜᴇʀᴏ'
+    click_requirements:
+     type: has permission
+     permission: dm.rtp.nether
+    click_commands:
+    - '[console] rtp %player_name% world_the_nether'
+
+ 'end_tp':
+  material: 'hdb-2035' 
+  slots:
+     - 15
+  display_name: '&#55ff33&lᴇɴᴅ ᴛᴇʟᴇᴘᴏʀᴛ'
+  lore:
+    - '' 
+    - '&#ff0000&lᴄʟɪᴄᴋ ᴛᴏ ɢᴇᴛ ᴛᴇʟᴇᴘᴏʀᴛᴇᴅ,'
+    - '&#ff0000&lɪɴᴛᴏ ᴛʜᴇ ᴇɴᴅ.'
+    - '' 
+    - '&#00ff00&lꜰᴏʀ ʀᴀɴᴋs: ʟᴇɢᴇɴᴅ, ᴍʏsᴛɪᴄ, ɪᴍᴍᴏʀᴛᴀʟ'
+  click_requirements:
+     type: has permission
+     permission: dm.rtp.end
+  click_commands:
+    - '[console] rtp %player_name% world_the_end'
