@@ -7,3 +7,6 @@ gui_menus:
 
   rank_menu:
     file: ranks.yml
+
+  rtp_menu:
+    file: rtp_menu.yml
