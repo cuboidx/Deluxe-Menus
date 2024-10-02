@@ -1,0 +1,143 @@
+menu_title: '&7&lServer Warps'
+open_command: 
+  - warp 
+  - warps 
+size: 45
+register_command: true
+update_interval: 1
+
+items:
+
+ 'glass':
+  material: GRAY_STAINED_GLASS_PANE
+  slots: [0-45]
+
+ 'warp_crates':
+  material: 'hdb-46946'
+  slots:
+    - 0
+  display_name: '&b&lᴡᴀʀᴘ ᴄʀᴀᴛᴇs'
+  lore:
+    - '' 
+    - '&#ff0000&lᴄʟɪᴄᴋ ᴛʜɪs ʜᴇᴀᴅ ᴛᴏ'
+    - '&#ff0000&lɢᴇᴛ ᴛᴘᴇᴅ ᴛᴏ ᴄʀᴀᴛᴇs.'
+    - '' 
+  click_commands:
+    - '[player] warp crates'
+
+ 'warp_afk':
+  material: 'hdb-77255'
+  slots: 
+    - 8
+  display_name: '&b&lᴡᴀʀᴘ ᴀꜰᴋ'
+  lore:
+    - '' 
+    - '&#ff0000&lᴄʟɪᴄᴋ ᴛʜɪs ʜᴇᴀᴅ ᴛᴏ'
+    - '&#ff0000&lɢᴇᴛ ᴛᴘᴇᴅ ᴛᴏ ᴀꜰᴋ.'
+    - '' 
+  click_commands:
+    - '[player] warp afks'
+
+ 'warp_piratecave':
+  material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNjM2MwYzM1YWQwOThhYTg4ZDBjOGRiNmUzMmM2NmQzYzczMjQzMjU0NWM2OGMzMTkwNjM5MjE4MzIxZmRmNyJ9fX0=
+  slots:
+    - 10
+  display_name: '&b&lᴡᴀʀᴘ ᴘɪʀᴀᴛᴇ ᴄᴀᴠᴇ'
+  lore:
+    - '' 
+    - '&#ff0000&lᴄʟɪᴄᴋ ᴛʜɪs ʜᴇᴀᴅ ᴛᴏ'
+    - '&#ff0000&lɢᴇᴛ ᴛᴘᴇᴅ ᴛᴏ ᴘɪʀᴀᴛᴇ ᴄᴀᴠᴇ.'
+    - '' 
+  click_commands:
+    - '[player] warp PirateCave'    
+ 
+ 'warp_lostlibrary':
+  material: 'hdb-220'
+  slots: 
+    - 11
+  display_name: '&b&lᴡᴀʀᴘ ʟᴏsᴛ ʟɪʙʀᴀʀʏ'
+  lore:
+    - '' 
+    - '&#ff0000&lᴄʟɪᴄᴋ ᴛʜɪs ʜᴇᴀᴅ ᴛᴏ'
+    - '&#ff0000&lɢᴇᴛ ᴛᴘᴇᴅ ᴛᴏ ʟᴏsᴛ ʟɪʙʀᴀʀʏ.'
+    - '' 
+  click_commands:
+    - '[player] warp LostLibrary'
+ 
+ 'warp_lavachambers':
+  material: 'hdb-85353'
+  slots: 
+    - 21
+  display_name: '&b&lᴡᴀʀᴘ ʟᴀᴠᴀ ᴄʜᴀᴍʙᴇʀs'
+  lore:
+    - '' 
+    - '&#ff0000&lᴄʟɪᴄᴋ ᴛʜɪs ʜᴇᴀᴅ ᴛᴏ'
+    - '&#ff0000&lɢᴇᴛ ᴛᴘᴇᴅ ᴛᴏ ʟᴀᴠᴀ ᴄʜᴀᴍʙᴇʀs.'
+    - '' 
+  click_commands:
+    - '[player] warp LavaChambers'
+
+ 'warp_eternalfortress':
+  material: 'hdb-22906'
+  slots: 
+    - 22
+  display_name: '&b&lᴡᴀʀᴘ ᴇᴛᴇʀɴᴀʟ ꜰᴏʀᴛʀᴇss'
+  lore:
+    - '' 
+    - '&#ff0000&lᴄʟɪᴄᴋ ᴛʜɪs ʜᴇᴀᴅ ᴛᴏ'
+    - '&#ff0000&lɢᴇᴛ ᴛᴘᴇᴅ ᴛᴏ ᴇᴛᴇʀɴᴀʟ ꜰᴏʀᴛʀᴇss.'
+    - '' 
+  click_commands:
+    - '[player] warp EternalFortress'
+
+ 'warp_jungletemple':
+  material: 'hdb-25854'
+  slots: 
+    - 23
+  display_name: '&b&lᴡᴀʀᴘ ᴊᴜɴɢʟᴇ ᴛᴇᴍᴘʟᴇ'
+  lore:
+    - '' 
+    - '&#ff0000&lᴄʟɪᴄᴋ ᴛʜɪs ʜᴇᴀᴅ ᴛᴏ'
+    - '&#ff0000&lɢᴇᴛ ᴛᴘᴇᴅ ᴛᴏ ᴊᴜɴɢʟᴇ ᴛᴇᴍᴘʟᴇ.'
+    - '' 
+  click_commands:
+    - '[player] warp JungleTemple'
+
+ 'warp_underwaterdeep':
+  material: 'hdb-61613'
+  slots: 
+    - 15
+  display_name: '&b&lᴡᴀʀᴘ ᴜɴᴅᴇʀᴡᴀᴛᴇʀ ᴅᴇᴇᴘ'
+  lore:
+    - '' 
+    - '&#ff0000&lᴄʟɪᴄᴋ ᴛʜɪs ʜᴇᴀᴅ ᴛᴏ'
+    - '&#ff0000&lɢᴇᴛ ᴛᴘᴇᴅ ᴛᴏ ᴜɴᴅᴇʀᴡᴀᴛᴇʀ ᴅᴇᴇᴘ.'
+    - '' 
+  click_commands:
+    - '[player] warp UnderwaterDeep'
+
+ 'warp_ancientmirage':
+  material: 'hdb-51069'
+  slots: 
+    - 16
+  display_name: '&b&lᴡᴀʀᴘ ᴀɴᴄɪᴇɴᴛ ᴍɪʀᴀɢᴇ'
+  lore:
+    - '' 
+    - '&#ff0000&lᴄʟɪᴄᴋ ᴛʜɪs ʜᴇᴀᴅ ᴛᴏ'
+    - '&#ff0000&lɢᴇᴛ ᴛᴘᴇᴅ ᴛᴏ ᴀɴᴄɪᴇɴᴛ ᴍɪʀᴀɢᴇ.'
+    - '' 
+  click_commands:
+    - '[player] warp AncientMirage'
+
+ 'warp_hauntedmansion':
+  material: 'hdb-58028'
+  slots: 
+    - 31
+  display_name: '&b&lᴡᴀʀᴘ ʜᴀᴜɴᴛᴇᴅ ᴍᴀɴsɪᴏɴ'
+  lore:
+    - '' 
+    - '&#ff0000&lᴄʟɪᴄᴋ ᴛʜɪs ʜᴇᴀᴅ ᴛᴏ'
+    - '&#ff0000&lɢᴇᴛ ᴛᴘᴇᴅ ᴛᴏ ʜᴀᴜɴᴛᴇᴅ ᴍᴀɴsɪᴏɴ.'
+    - '' 
+  click_commands:
+    - '[player] warp HauntedMansion'
